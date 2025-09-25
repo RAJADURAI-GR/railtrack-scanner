@@ -1,0 +1,43 @@
+{
+"users": [
+{
+"username": "admin",
+"password": "Admin123",
+"role": "admin"
+},
+{
+"username": "inspector",
+"password": "User123",
+"role": "team_member"
+}
+],
+"fittings": {
+"TRK-001": {
+"vendorName": "Global Rail Solutions Inc.",
+"manufactureDate": "2023-05-15",
+"inspectionHistory": [
+"2023-06-01: Initial inspection",
+"2023-12-10: Routine maintenance check",
+"2024-03-22: Post-weather anomaly inspection"
+],
+"warrantyPeriod": "5 years"
+},
+"TRK-002": {
+"vendorName": "Innovate Rail Solutions",
+"manufactureDate": "2024-01-20",
+"inspectionHistory": [
+"2024-02-15: Initial installation and inspection"
+],
+"warrantyPeriod": "10 years"
+},
+"TRK-003": {
+"vendorName": "TrackSafe Global",
+"manufactureDate": "2022-11-05",
+"inspectionHistory": [
+"2022-12-01: Initial inspection",
+"2023-10-15: Routine checkup"
+],
+"warrantyPeriod": "3 years"
+}
+}
+}
